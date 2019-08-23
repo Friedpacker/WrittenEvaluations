@@ -1,4 +1,4 @@
-# WrittenEvaluations
+# Research Project: Written Evaluations
 Matthias Fuchs, 2019
 
 ## Studies
