@@ -188,7 +188,7 @@ Crafty.scene('play', function() {
 				// _reset(_level-1);
 			}
 			if(this.isDown(Crafty.keys.P)) {
-				Crafty.pause();
+				// Crafty.pause();
 			}
 		})
 		.bind('Pause', function() {
