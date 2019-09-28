@@ -17,7 +17,7 @@
 	function createSprites() {
 		if(!spritesCreated) {
 			spritesCreated = true;
-			Crafty.sprite(breakout.TILE_SIZE, 'media/tiles.png', {
+			Crafty.sprite(breakout.TILE_SIZE, 'https://friedpacker.github.io/WrittenEvaluations/ExcellentGame/media/tiles.png', {
 				blue: [0, 0, 2, 1],
 				orange: [0, 1, 2, 1],
 				red: [0, 2, 2, 1],

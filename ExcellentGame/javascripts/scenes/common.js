@@ -2,7 +2,7 @@
 	window.breakout = window.breakout || {};
 
 	breakout.logo = function() {
-		Crafty.sprite(1, 'media/logo.png', {
+		Crafty.sprite(1, 'https://friedpacker.github.io/WrittenEvaluations/ExcellentGame/media/logo.png', {
 			logo: [0, 0, 131, 175]
 		});
 
@@ -39,7 +39,7 @@
 		var width = Crafty.stage.elem.clientWidth;
 		var height = Crafty.stage.elem.clientHeight;
 
-		Crafty.sprite(1, 'media/bg_prerendered.png', {
+		Crafty.sprite(1, 'https://friedpacker.github.io/WrittenEvaluations/ExcellentGame/media/bg_prerendered.png', {
 			bg: [0, 0, width, height]
 		});
 
@@ -76,7 +76,7 @@
 	};
 
 	breakout._createBackgroundViaTiles = function() {
-		Crafty.sprite(16, 'media/tiles.png', {
+		Crafty.sprite(16, 'https://friedpacker.github.io/WrittenEvaluations/ExcellentGame/media/tiles.png', {
 			r: [11, 3],
 			l: [11, 4],
 			v: [11, 5],

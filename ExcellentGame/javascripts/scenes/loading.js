@@ -3,9 +3,9 @@
 		var assets = {};
 		audioFiles.forEach(function(audioFile) {
 			assets[audioFile] = [
-			  'media/sfx/' + audioFile + '.mp3',
-				'media/sfx/' + audioFile + '.ogg',
-				'media/sfx/' + audioFile + '.wav'
+			  'https://friedpacker.github.io/WrittenEvaluations/ExcellentGame/media/sfx/' + audioFile + '.mp3',
+				'https://friedpacker.github.io/WrittenEvaluations/ExcellentGame/media/sfx/' + audioFile + '.ogg',
+				'https://friedpacker.github.io/WrittenEvaluations/ExcellentGame/media/sfx/' + audioFile + '.wav'
 			];
 		});
 
@@ -24,8 +24,8 @@
 
 		var assets = {
 			images: {
-				tiles: 'media/tiles.png',
-				logo: 'media/logo.png'
+				tiles: 'https://friedpacker.github.io/WrittenEvaluations/ExcellentGame/media/tiles.png',
+				logo: 'https://friedpacker.github.io/WrittenEvaluations/ExcellentGame/media/logo.png'
 			},
 			audio: getAudioAssets(audioFiles)
 		};

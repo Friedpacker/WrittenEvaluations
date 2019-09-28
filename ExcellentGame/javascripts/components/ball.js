@@ -4,7 +4,7 @@
 	function createSprites() {
 		if (!spritesCreated) {
 			spritesCreated = true;
-			Crafty.sprite(breakout.TILE_SIZE, 'media/tiles.png', {
+			Crafty.sprite(breakout.TILE_SIZE, 'https://friedpacker.github.io/WrittenEvaluations/ExcellentGame/media/tiles.png', {
 				ball: [3, 4, 1, 1]
 			});
 		}
