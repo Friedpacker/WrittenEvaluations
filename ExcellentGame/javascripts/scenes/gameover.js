@@ -26,7 +26,7 @@ Crafty.scene('gameover', function() {
 		.bind('MouseDown', function(e) {
 			Crafty.scene('menu');
 		});
-
+	clearTimeout(x);
 	setTimeout(function() {
 		Crafty.scene('menu');
 	}, 2000);
