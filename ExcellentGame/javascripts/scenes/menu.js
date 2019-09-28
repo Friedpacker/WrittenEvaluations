@@ -28,5 +28,6 @@ Crafty.scene('menu', function() {
 		})
 		.bind('MouseDown', function(e) {
 			Crafty.scene('play');
+			window.x = setTimeout(showQuestion,30000);
 		});
 });
