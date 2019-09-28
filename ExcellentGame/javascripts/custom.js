@@ -27,13 +27,14 @@ $(document).ready(function() {
 		}
 		else {
 			Crafty.pause(false);
-			setTimeout(showQuestion,30000);
+			window.x = setTimeout(showQuestion,30000);
 		}
 		
 	});
 	$("#replay").click(function() {
 		$(".feeback_container").css("top","-50%");
 		load();
+		window.x = setTimeout(showQuestion,30000);
 	});
 });
 function showQuestion() {
@@ -55,5 +56,4 @@ function load() {
 	setTimeout(function() {
 		window.scrollTo(0, 1);
 	}, 1);
-	setTimeout(showQuestion,30000);
-}
+	}
