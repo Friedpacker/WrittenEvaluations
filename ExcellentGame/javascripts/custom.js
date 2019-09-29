@@ -16,6 +16,7 @@ $(document).ready(function() {
 	}); 
 	$("#submit").click(function() {
 		$(".feeback_container").css("top","-50%");
+		$("#submit").removeClass("visible");
 		$(".circle_container div").removeClass("yellow_back");
 		$(".circle_container div").removeClass("green_back");
 		$("#input"+count).attr("value",$x);
