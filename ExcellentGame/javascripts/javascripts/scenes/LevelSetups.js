@@ -9,29 +9,6 @@
 
 	breakout.LevelSetups = [
 		{
-			name: "letsa begin",
-			bricks: [
-				[X,X,g,o,g,X,X],
-				[o,b,g,g,g,b,o],
-				[X,b,b,b,b,b,X]
-			],
-			powerUps: 1,
-			powerDowns: 1
-		},
-		{
-			name: "how's it going?",
-			bricks: [
-				[X,g,o,g,o,g,X],
-				[X,b,b,b,b,b,X],
-				[g,b,r,b,r,b,g],
-				[g,b,b,b,b,b,g],
-				[g,b,X,X,X,b,g],
-				[X,b,b,b,b,b,X]
-			],
-			powerUps: 1,
-			powerDowns: 1
-		},
-		{
 			name: 'tie fighta!',
 			bricks: [
 				[X,b,X,g,X,b,X],
